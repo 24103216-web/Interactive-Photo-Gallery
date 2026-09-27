@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Interactive Photo Gallery</h1>
+    <h2>Hover or Focus over an image below to display here.</h2>
+
+    <!-- Khung hiển thị ảnh xem trước -->
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <!-- Danh sách 6 hình ảnh -->
+    <div class="preview-container">
+        <img class="preview" 
+             src="https://picsum.photos/id/1015/600/400" 
+             alt="Scenic mountain landscape with a lake" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()" 
+             onfocus="upDate(this)" 
+             onblur="unDo()">
+
+        <img class="preview" 
+             src="https://picsum.photos/id/1018/600/400" 
+             alt="Misty forest with high trees" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()" 
+             onfocus="upDate(this)" 
+             onblur="unDo()">
+
+        <img class="preview" 
+             src="https://picsum.photos/id/1025/600/400" 
+             alt="Pug wrapped in a warm blanket" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()" 
+             onfocus="upDate(this)" 
+             onblur="unDo()">
+
+        <img class="preview" 
+             src="https://picsum.photos/id/1069/600/400" 
+             alt="Jellyfish swimming in dark blue water" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()" 
+             onfocus="upDate(this)" 
+             onblur="unDo()">
+
+        <img class="preview" 
+             src="https://picsum.photos/id/1084/600/400" 
+             alt="Walrus resting on an iceberg" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()" 
+             onfocus="upDate(this)" 
+             onblur="unDo()">
+
+        <img class="preview" 
+             src="https://picsum.photos/id/1062/600/400" 
+             alt="Calm sea horizon during sunset" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()" 
+             onfocus="upDate(this)" 
+             onblur="unDo()">
+    </div>
+
+</body>
+</html>

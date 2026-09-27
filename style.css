@@ -1,0 +1,43 @@
+body {
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #b3cde0;
+    font-family: Arial, sans-serif;
+}
+
+#image {
+    width: 575px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 20px auto;
+    background-color: #8e9aaf;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    
+    /* Dùng Flexbox để căn giữa chữ cả chiều dọc lẫn chiều ngang chuẩn xác */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.preview {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
